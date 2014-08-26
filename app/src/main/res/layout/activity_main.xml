@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/container"
+    android:layout_height="fill_parent" android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#fff"
+        android:src="@drawable/gnome_colorable"/>
+
+    <com.andrealimachagas.gnoomle.DoodleView
+        android:id="@+id/doodleView"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"/>
+</RelativeLayout>
